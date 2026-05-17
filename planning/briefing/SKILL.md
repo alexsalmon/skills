@@ -1,6 +1,6 @@
 ---
 name: briefing
-description: Produces a compact briefing document for an AFK agent taking on a specific slice. Use after create-prd or create-issues, immediately before handing work to a coding agent. Do NOT interview the user — synthesise from the current context.
+description: Produces a compact briefing document for an AFK agent taking on a specific slice. Use after create-prd or create-issues, immediately before handing work to a coding agent.
 model: sonnet
 ---
 

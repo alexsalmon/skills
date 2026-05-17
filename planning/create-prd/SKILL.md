@@ -1,6 +1,6 @@
 ---
 name: create-prd
-description: Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to create a PRD from the current context.
+description: Turns the current conversation context into a PRD and publishes it to the project issue tracker. Use when user wants to create a PRD from the current context.
 model: sonnet
 ---
 
