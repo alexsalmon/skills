@@ -1,6 +1,7 @@
 ---
 name: acceptance
 description: Acceptance criteria session that interviews the team on a single story until every done condition is unambiguous and testable. Use after amigo, before create-prd, when the team needs to agree on what "done" looks like.
+model: sonnet
 ---
 
 <what-to-do>

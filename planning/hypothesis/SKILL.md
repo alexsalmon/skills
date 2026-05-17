@@ -1,6 +1,7 @@
 ---
 name: hypothesis
 description: Hypothesis framing session that interviews the team on a feature until the user, value, signal, and riskiest assumption are all concrete. Use before amigo, when the team needs to agree on why they are building something before deciding what to build.
+model: sonnet
 ---
 
 <what-to-do>
