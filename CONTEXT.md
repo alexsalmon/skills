@@ -25,6 +25,18 @@ _Avoid_: User (ambiguous — the **Sponsor** is also a user of Teho's output)
 **Evidence channel**:
 A source of signal about how an **Observed employee** actually spends time (e.g. calendar, browser activity, comms metadata, interviews). Each channel is bounded in scope and time.
 
+**Signal scope**:
+The precise list of fields an **Evidence channel** is allowed to capture. For browser awareness in v1: URL, page title, dwell, tab focus events, and **a11y structure** — never **a11y values**.
+
+**A11y structure**:
+Roles, landmarks, headings (text of headings), control labels (the label "Salary", not the value), counts of repeated structures. Tells *what kind of thing* the page is.
+
+**A11y values**:
+The actual contents of inputs, textareas, contenteditables, selected option text, body text inside paragraphs. **Out of scope for every Evidence channel.**
+
+**Capture-time stripping**:
+**A11y values** are dropped inside the renderer process before any data leaves it. Not a server-side filter, not a redaction pass — values never exist outside the renderer.
+
 **Observation phase**:
 Weeks 2–5 of the **Engagement** — the only window in which **Evidence channels** are active.
 
