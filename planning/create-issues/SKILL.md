@@ -9,7 +9,9 @@ Break a plan into independently-grabbable issues using vertical slices (tracer b
 
 This skill can be run in a **fresh conversation** with just the PRD as input — paste or reference the PRD and skip the prior interview context. This keeps token usage low when the full flow has been completed in a previous session.
 
-Check for a `.skills-config.md` file at the project root for tracker URL and label vocabulary. If it does not exist, ask the user before proceeding.
+Check for a `.skills-config.md` file at the project root. If it exists, read the tracker URL and label vocabulary from it. If it does not exist, ask the user for:
+- Issue tracker URL or type (e.g. GitHub Issues, Linear, Jira)
+- The label to apply to ready issues (e.g. `ready-for-agent`, `ready`, `triage`)
 
 ## Process
 

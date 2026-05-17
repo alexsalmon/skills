@@ -44,6 +44,26 @@ These skills work from the PRD alone and can be run in a fresh conversation to k
 
 ---
 
+## Configuration
+
+`/create-prd` and `/create-issues` read tracker settings from a `.skills-config.md` file at the repo root. If the file is missing, the skill will ask inline and offer to create it.
+
+```md
+# Skills Config
+
+tracker: github
+tracker_url: https://github.com/org/repo
+ready_label: ready-for-agent
+```
+
+| Key | Description |
+|---|---|
+| `tracker` | `github`, `linear`, or `jira` |
+| `tracker_url` | Base URL for the issue tracker |
+| `ready_label` | Label applied to issues that are ready for an AFK agent |
+
+---
+
 ## Skills
 
 | Skill | What it does |

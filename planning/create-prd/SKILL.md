@@ -9,6 +9,8 @@ Before writing the PRD, check for a `.skills-config.md` file at the project root
 - Issue tracker URL or type (e.g. GitHub Issues, Linear, Jira)
 - The label to apply to ready issues (e.g. `ready-for-agent`, `ready`, `triage`)
 
+If you asked the user inline, offer to save their answers to `.skills-config.md` at the repo root so subsequent skills (e.g. `/create-issues`) can read it directly.
+
 ## Process
 
 1. Explore the repo to understand the current state of the codebase, **only if you haven't already done so this session**. Use the project's domain glossary vocabulary throughout the PRD, and respect any ADRs in the area you're touching.
